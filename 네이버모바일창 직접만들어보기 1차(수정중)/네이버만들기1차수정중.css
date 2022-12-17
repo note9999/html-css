@@ -1,0 +1,133 @@
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Merienda:wght@600&family=Noto+Sans+KR&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font: 15px/1.8 'Noto Sans KR', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+#container {
+  width: 700px;
+  margin: auto;
+  height: 100%;
+}
+
+#wrapper {
+  background-color: #FAFAFA;
+  width: 100%;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 50%;
+  margin-bottom: 50px;
+  margin-left: 25%;
+  display: block;
+
+}
+
+#idd label, #pas label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#idd input, #pas input {
+  background-color: white;
+  border: 1px solid gray;
+  color: gray;
+  height: 35px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
+#loggin {
+  margin-bottom: 10px;
+  background-color: #03c75a;
+  border: 1px solid green;
+  color: white;
+  text-align: center;
+  height: 35px;
+  box-sizing: border-box;
+}
+
+hr {
+  margin-top: 50px;
+}
+
+
+#nav01 {
+  list-style: none;
+  float: left;
+
+
+}
+
+#nav02 {
+  list-style: none;
+  float: right;
+
+}
+
+
+#text1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+#qr {
+  background-color: white;
+  border: 1px solid green;
+  height: 45px;
+  width: 220px;
+  margin: auto;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#gu {
+  background-color: white;
+  border: 1px solid green;
+  height: 45px;
+  width: 220px;
+  float: right;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  width: 28%;
+  margin: 10px; 
+  border-width : 5%;
+  border-right: 1px solid gray 
+  
+}
+
+ul li a {
+  text-decoration: none; /* 밑줄 처리 */
+  color: gray;
+}
+
+#footer img {
+  width: 20%;
+  margin-top: 50px;
+  float: left;
+  display: block;
+}
