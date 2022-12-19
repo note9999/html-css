@@ -1,0 +1,19 @@
+input:focus{
+  background-color: lightgray;
+}
+
+a{
+  
+  text-decoration: none;
+  width: 20px;
+  border: 1px solid lightgray;
+  text-align: center;
+  display: inline-block;
+  color: black;
+}
+
+a:hover{
+background-color: tomato;
+color: white;
+border: 1px solid tomato;
+}

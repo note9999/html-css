@@ -1,0 +1,54 @@
+div{
+ width: 50px;
+  height: 50px;
+  background-color: aqua;
+  position: relative;
+
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  
+   animation-name: ani;
+   animation-fill-mode: both;
+  /* animation-duration: 3s; 몇 초 동안 진행할지 */
+
+  /* animation-timing-function: ease-in; */
+
+  /*  animation-delay: 3s; 이미지 시작 딜레이 */
+
+  /* animation-iteration-count: 2; 반복 횟수 (무한반복은 infinite) */
+
+  /* animation-direction: reverse;  역방향 재생 (최소 2번이상 반복 재생 필요) */ 
+  
+  /* animation: ani 3s 1s ease-in alternate; */
+  /* animation: ani 3s 1s ease-in alternate; */
+  
+  /* animation-fill-mode: forwards; */
+  /* animation-fill-mode: backwards; 파란색으로 시작함*/
+
+  /* animation-fill-mode: both; forwards,backwards동시 적용*/
+
+}
+
+
+div:hover{
+  animation-play-state: paused;
+}
+
+
+@keyframes ani{
+  
+  0%{
+    left:0;
+    background-color:blue;
+  }
+  
+ 50%{
+    left: 200px;
+    background-color:red;
+
+  }
+  100%{
+    left: 200px;
+    background-color:green;
+
+  }
+}

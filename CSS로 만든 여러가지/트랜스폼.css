@@ -1,0 +1,17 @@
+div{
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+ 
+  /* transform: translate(10px); */
+  /* transform: scale(1,5); */
+  /* transform-origin: left ; */
+  /* transform: rotate(45deg); */
+  /* transform: skew(10deg, 10deg); */
+  /* transform: skewX(10deg); */
+  /* transform: skewY(10deg); */
+
+}

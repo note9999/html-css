@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+}
+
+ul li{
+  list-style: none;
+}
+
+i{
+border: radius 50%;
+margin: auto;
+}
+
+ul li i {
+  float: left;
+  size: 30px;
+}
+
+.text li{
+  float: left;
+  list-style: none;
+}
