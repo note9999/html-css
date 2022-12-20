@@ -1,0 +1,59 @@
+.container{
+  border: 2px solid red;
+  /* width: 500px; */
+  height: 100vh; /*너비는 100vw* 브라우저창의너비(vw)와높이(vh)개념*/  
+  display: flex; 
+  /* flex: wrap;
+  align-content: space-around; */
+  /* 기본설정이 flex-direction:row;로 설정되어있음 */
+  /* flex-direction: column;  세로*/
+  /* flex-direction: row-reverse; 가로 역방향*/
+  /* flex-direction: column-reverse; 역방향 세로배치 */
+  /* flex-wrap: nowrap;기본값으로 되어있음.
+  박스안에 다넣어줌,너비조절해도 줄바꿈x */
+  /* flex-wrap: wrap; 너비 조절할때 마다 줄바꿈O */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; 튀어나온 부분 줄바꿈 */
+  /* flex-flow: column wrap;flex-flow로 두개 속성 한번에 설정 가능 */
+  /*flex-grow 전체 너비 비율*/
+  /*flex-shrink 줄었을 때 감소비율*/
+  /*flex-bassis 처음 설정했을 때 기본너비*/
+ /* flex:증가 감소 기본* 으로 한번에 적용 가능*/
+ /* width: px;는 고정 */
+ /*  order: ; 순서를 나타냄, 반응형 웹에서 쓰임*/
+ /* align-self: center;, align-self: flex-end; 
+ align-self: baseline;(라인에 맞춤)
+ 자식한테만 걸어줌(걸린 놈만 움직임)*/
+ /*  margin-right: auto; 양쪽 배치를 하고자할때 쓰면 빈공간
+ 만큼 벌림*/
+ /**/
+ /**/
+
+
+}
+.container div{
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  font-size: 60px;
+}
+
+.box1{
+  background-color: beige;
+  /* margin-right: auto; */
+ 
+}
+
+.box2{
+  background-color: skyblue;
+  
+}
+
+.box3{
+  background-color: pink;
+ 
+}
+
+a input{
+  margin-right: auto;
+}

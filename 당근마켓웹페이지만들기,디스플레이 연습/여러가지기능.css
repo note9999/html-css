@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* .container div {
+  height: 300px;
+  float: left;
+}
+
+.side {
+  background-color: blue;
+  width: 300px;
+}
+
+.content {
+  background-color: red;
+  width: calc(100%-300px);
+} */
+
+.container div {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  background: skyblue;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.container {
+  font-size: 0;
+}

@@ -1,0 +1,43 @@
+.container {
+  border: 2px solid red;
+  height: 500px;
+  display: flex;
+  
+  justify-content: center;/*가로가운데
+  /* justify-content: start;
+  justify-content: end; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  align-items: center;/*세로 가운데
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: stretch; 높이값없는애들 100%로 지정*/
+
+}
+
+.container div{
+  border: 1px solid black;
+  background-color: skyblue;
+  width: 200px;
+  margin: 5px;
+}
+
+.box1{
+  /* background-color: skyblue;
+  border: 1px solid black; */
+  height: 100px;
+  /* width: 200px; */
+}
+
+.box2{
+  /* background-color: skyblue;
+  border: 1px solid black;
+  width: 200px; */
+}
+
+.box3{
+  /* background-color: skyblue;
+  border: 1px solid black; */
+  height: 250px;
+  /* width: 200px; */
+}

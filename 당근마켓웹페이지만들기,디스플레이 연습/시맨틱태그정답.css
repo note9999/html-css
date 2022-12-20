@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,section,footer {
+  width: 100vw;
+}
+
+header {
+  background: tomato;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+section {
+  display: flex;
+  height: 500px;
+}
+
+aside{
+  background: aqua;
+  flex: 1;
+}
+
+article {
+  background: lightgray;
+  flex:4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 50px;
+  background: salmon;
+}
