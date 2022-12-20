@@ -1,0 +1,39 @@
+.header{
+padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  border: 1px solid lightgray;
+  background-color: yellow;
+  padding: 10px 20px;
+}
+
+a:hover{
+  opacity:0.5
+}
+
+ul{
+  list-style: none;
+}
+
+ul li {
+  line-height: 30px;
+}
+
+ul li::before{
+  content: "♥";
+  padding-right: 10px;
+  color: red;
+}
+
+.sale::after{
+  content:"sale";
+  font-size: 15px;
+  background-color: tomato;
+  color: white;
+  padding: 2px;
+  margin-left: 5px;
+  border-radius: 5px;
+
+}

@@ -1,0 +1,38 @@
+h1::before {
+content: "★";
+color: red;
+}
+
+h1::after {
+  content: "hi";
+  background: red;
+  color: white;
+  font-size: 30px;
+}
+
+.con{
+  width: 400px;
+  height: 400px;
+  background: url('img/pepe.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+.con p{
+  text-align: center;
+  line-height: 400px;
+  font-size: 30px;
+  color: white;
+}
+
+.con::before{
+  content: "fffff";
+  color: white;
+  font-size: 40px;
+  background: rgba(0,0,0,0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+}
