@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3,100px);
+  grid-template-areas: 
+  "b1 b1 b1"
+  "b2 b3 b3"
+  "b2 .  b4" ;
+}
+
+
+.box1{
+  background: blue;
+  grid-area: b1;
+}
+.box2{
+  background: green;
+  grid-area: b2
+  ;
+}
+.box3{
+  background: orange;
+  grid-area: b3;
+} 
+.box4{
+  background: yellow;
+  grid-area: b4;
+}
