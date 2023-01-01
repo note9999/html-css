@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS활용 반응형웹코딩</title>
+  <link rel="stylesheet" href="css활용반응형웹.css">
+  <style>
+    *{padding: 0;margin: 0;}
+    body{
+      background: pink;
+    }
+    #wrapper{
+      border: 1px solid gray;
+      width: 80%;
+      margin: 0 auto;
+      font-size: 2vw;
+    }
+    nav li {
+      list-style: none;
+      float: left;
+      border: 1px solid gray;
+        width: 20%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    nav ul{
+      overflow: hidden;
+    }
+    header h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header{
+      padding: 20px 0;
+      border: 1px solid gray;
+    }
+    .content{
+      padding: 5px;
+    }
+    footer{
+      border: 1px solid gray;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+    }
+   @media (max-width:767px) {
+      body{
+        background-color: purple;
+      }
+      #wrapper {
+        width: 100%;
+        font-size: 2em;
+      }
+      nav li {
+        width: 100%;
+      }
+   }
+    @media (min-width:768px) {
+      body{
+        background-color: orange;
+      }
+      #wrapper {
+        width: 100%;
+      }
+    }
+    @media (min-width:992px) {
+      body{
+        background-color: skyblue;
+      }
+      #wrapper {
+        width: 80%;
+      }
+    }
+    @media (min-width:1200px) {
+      body{
+        background-color: lemonchiffon;
+      }
+    }
+   
+  </style>
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1>반응형 웹</h1>
+  <nav>
+    <ul>
+      <li>menu1</li>
+      <li>menu2</li>
+      <li>menu3</li>
+      <li>menu4</li>
+      <li>menu5</li>
+    </ul>
+  </nav>
+</header>
+  <div class="content">
+    <h2>반응형 웹은 미디어쿼리를 사용하여 스타일링 합니다.</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+      Voluptatibus qui ducimus dignissimos quisquam, error quos hic quis, o
+      dit molestias, 
+      vitae ex pariatur. 
+      Laborum commodi, asperiores officia optio sapiente nesciunt amet.
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde laborum doloremque, 
+      fuga necessitatibus ratione repudiandae et iure fugiat odio. Omnis placeat explicabo aut, 
+      labore neque blanditiis suscipit ipsum fugit recusandae.
+    </p>
+  </div>
+  <footer>
+     <h1>Desinged by Note9999</h1>
+  </footer>
+</div>  
+</body>
+</html>
